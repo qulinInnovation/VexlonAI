@@ -44,13 +44,14 @@ VexlonAI 是一款**本地优先**的多功能 AI 软件，装在你的电脑或
 
 ##  平台支持
 
-| 平台            | 状态  | 目录            | 产物     |
-| ------------- | --- | ------------- | ------ |
-| Windows       | 已支持 | `app/windows` | `.exe` |
-| macOS         | 已支持 | `app/macos`   | `.app` |
-| Android（安卓）   | 已支持 | `app/android` | `.apk` |
-| iOS           | 计划中 | —             | `.ipa` |
-| HarmonyOS（鸿蒙） | 计划中 | —             | `.hap` |
+| 平台            | 状态   | 产物     |
+| ------------- | ---- | ------ |
+| Windows       | 已支持  | `.exe` |
+| Android（安卓）   | 已支持  | `.apk` |
+| HarmonyOS（鸿蒙） | 计划中  | `.hap` |
+| iOS           | 暂无计划 | —      |
+| macOS         | 暂无计划 | —      |
+| 其他平台          | 暂无计划 | —      |
 
 > 鸿蒙用户当前可先用系统自带的「卓易通」运行安卓版。早期（2026年3月的）网页版已不再对外提供。
 
@@ -113,7 +114,6 @@ cd VexlonAI/app
 flutter pub get
 
 # 运行（按需选择设备）
-flutter run -d macos
 flutter run -d windows
 flutter run -d <android-device-id>
 ```
@@ -129,7 +129,6 @@ flutter run -d <android-device-id>
 ```bash
 cd VexlonAI/app
 
-flutter build macos
 flutter build windows
 flutter build apk
 ```
